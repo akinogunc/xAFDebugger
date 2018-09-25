@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'xAFDebugger_Example' do
+  pod 'xAFDebugger', :path => '../'
+
+  target 'xAFDebugger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
