@@ -5,11 +5,38 @@
 [![License](https://img.shields.io/cocoapods/l/xAFDebugger.svg?style=flat)](https://cocoapods.org/pods/xAFDebugger)
 [![Platform](https://img.shields.io/cocoapods/p/xAFDebugger.svg?style=flat)](https://cocoapods.org/pods/xAFDebugger)
 
+<img align="center" src="https://github.com/akinogunc/xAFDebugger/blob/master/ss.png?raw=true" width="300">
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+First import the module
+
+```swift
+import xAFDebugger
+```
+
+Then create an instance of xAFDebugger
+
+```swift
+let debugger = xAFDebugger(self)
+```
+
+Catch the response in the Alomafire request block
+
+```swift
+Alamofire.request("https://jsonplaceholder.typicode.com/posts").responseJSON { response in
+  debugger.debug(response: response)
+}
+```
+
 
 ## Requirements
+
+- iOS 9.0+
+- Xcode 9+
+- Swift 4, 4.1 & 4.2
+- Alomafire
+
 
 ## Installation
 
