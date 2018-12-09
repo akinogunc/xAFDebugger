@@ -1,6 +1,5 @@
 # xAFDebugger
 
-[![Build Status](http://192.168.1.106:8080/buildStatus/icon?job=GitQuery)](http://192.168.1.106:8080/job/GitQuery/)
 [![Version](https://img.shields.io/cocoapods/v/xAFDebugger.svg?style=flat)](https://cocoapods.org/pods/xAFDebugger)
 [![License](https://img.shields.io/cocoapods/l/xAFDebugger.svg?style=flat)](https://cocoapods.org/pods/xAFDebugger)
 [![Platform](https://img.shields.io/cocoapods/p/xAFDebugger.svg?style=flat)](https://cocoapods.org/pods/xAFDebugger)
